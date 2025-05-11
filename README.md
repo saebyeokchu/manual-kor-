@@ -19,62 +19,53 @@
 
 ---
 
-## 🛠️ 기술 스택
+## 🛠 주요 기술 스택
 
-저는 주로 아래의 기술들을 사용합니다:
-
-- **언어**: TypeScript, Python, C++, JavaScript  
-- **프레임워크**: Django, Next.js, Node.js  
-- **인프라**: AWS ❤️×100, Nginx, Docker, Kubernetes  
-- **데이터베이스**: PostgreSQL, MongoDB, NoSQL  
-- **기타 도구**: Git, GitHub Actions, VS Code, Figma  
-
-새로운 기술에도 항상 열린 마음으로 탐구하고 있습니다!
+- **서버 개발**: Django, Python, Spring Boot(Java), Node.js, RESTful API 설계  
+- **분산 시스템 및 메시징**: Kafka, AWS Lambda, AWS RDS, Redis  
+- **데이터베이스 및 트랜잭션 처리**: PostgreSQL, MariaDB, Oracle  
+- **클라우드 운영 및 CI/CD**: AWS (VPC, CloudFront, S3), GitHub Actions, Docker, Kubernetes, Linux  
+- **성능 및 확장성 최적화**: 고가용성 서버 구조 설계, 실시간 데이터 처리, 성능 튜닝
 
 ---
 
-## 🚀 대표 프로젝트
+## 📦 프로젝트 목록 
 
-### 🎨 Littleblock — 블록 그림판
-디지털 레고 스타일의 블록 드로잉 웹앱입니다.
-
-- 📦 백엔드: [python-littleblock-back](https://github.com/saebyeokchu/python-littleblock-back)  
-- 🛠 기술 스택: Python, Django
-
----
-
-### 🏡 JoyfulVillage — 유저 맞춤형 숙소 업로드 플랫폼
-사용자가 자유롭게 숙소를 업로드하고 관리할 수 있는 플랫폼입니다.
-
-- 🌐 프론트엔드: [typescript-joyfulvillage-front](https://github.com/saebyeokchu/typescript-joyfulvillage-front)  
-- 🛠 기술 스택: TypeScript, Next.js
+### 1. 리틀블럭: 실시간 블록 드로잉 툴 백엔드
+- GitHub: [https://github.com/saebyeokchu/python-littleblock-back](https://github.com/saebyeokchu/python-littleblock-back)
+- 설명: 도형 데이터를 실시간으로 저장/조회하는 API 서버. 드로잉 충돌 방지 및 사용자간 동기화 로직 포함.
+- 기술: **Python, Django, PostgreSQL, AWS, JWT 인증**
 
 ---
 
-### 🧠 Messiy — 대화 속 특정 단어 분류 도구
-텍스트에서 패턴을 추출하고 엔터티(개체명)를 분류합니다.
-
-- 🔗 코드 예시: [FindEveryPatternInArray.py](https://github.com/saebyeokchu/python-ai-messiy/blob/main/FindEveryPatternInArray.py)  
-- 🛠 기술 스택: Python, NumPy
-
----
-
-### 📈 MakeMoney — 경제 지표 기반 ETF 판단 시스템
-실시간 경제 지표를 수집해 오늘 ETF 투자가 괜찮을지를 분석합니다.
-
-- 🔗 프로젝트: [python-ai-makemoney](https://github.com/saebyeokchu/python-ai-makemoney)  
-- 🛠 기술 스택: Python, 웹 크롤링, 규칙 기반 판단
+### 2. 조이풀빌리지: 유저 기반 숙소 업로드 플랫폼 백엔드
+- GitHub: [https://github.com/saebyeokchu/python-joyfulvillage-back](https://github.com/saebyeokchu/python-joyfulvillage-back)
+- 설명: 사용자가 직접 숙소를 등록하고 관리할 수 있도록 구성된 CRUD API 서버. 이미지 업로드 및 인증 처리 포함.
+- 기술: **Python, Django REST Framework, JWT, File Upload**
 
 ---
 
-## 📚 연구 경험
-
-사실 저는 미국에서 짧게 연구한 경험도 있어요.  
-그 당시 진행한 연구 내용이 궁금하신가요?
-
-🔬 [연구 요약 자료 보기](https://drive.google.com/file/d/1U9fE3xveAx2gE9HBBg9seBeG93HoCgHr/view?usp=drive_link)
+### 3. Makemoney: 경제 지표 기반 ETF 투자 보조 시스템
+- GitHub: [https://github.com/saebyeokchu/python-ai-makemoney](https://github.com/saebyeokchu/python-ai-makemoney)
+- 설명: 다양한 경제 데이터를 수집 및 분석하여 투자 판단 기준을 텍스트로 자동 생성.
+- 기술: **Python, Web Scraping, Rule-based Decision, File Output**
 
 ---
+
+### 4. Messiy: 텍스트에서 특정 엔터티 추출하는 NER 시스템
+- GitHub: [https://github.com/saebyeokchu/python-ai-messiy](https://github.com/saebyeokchu/python-ai-messiy)
+- 설명: 규칙 기반 + LSTM 모델을 활용한 개체명 인식기. 전화번호, 날짜, 이름 등을 자동 추출.
+- 기술: **Python, Keras, Soyspacing, KoNLPy, Numpy**
+
+---
+
+## 🔬 연구 경험 
+
+짧지만 미국에서의 연구 경험이 있으며, 아래 문서에서 당시 주제와 접근 방식을 확인하실 수 있습니다.  
+📎 [https://drive.google.com/file/d/1U9fE3xveAx2gE9HBBg9seBeG93HoCgHr/view?usp=drive_link](https://drive.google.com/file/d/1U9fE3xveAx2gE9HBBg9seBeG93HoCgHr/view?usp=drive_link)
+
+---
+
 
 ## 🙌 방문해주셔서 감사합니다!
 
